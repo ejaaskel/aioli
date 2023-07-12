@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote fetch="https://github.com/ejaaskel" name="ejaaskel" />
+<remote fetch="https://github.com/yoctoproject" name="yoctoproject" />
+<remote fetch="https://github.com/openembedded" name="openembedded" />
+<remote fetch="https://github.com/agherzan" name="agherzan" />
+<remote fetch="https://github.com/EmbeddedAndroid" name="EmbeddedAndroid" />
+<remote fetch="https://github.com/meta-rust" name="meta-rust" />
+
+<project remote="yoctoproject" name="poky" revision="d42904ba0cf0eac28ef79b0e6015150d376d134d"/>
+<project remote="openembedded" name="meta-openembedded" path="poky/meta-openembedded" revision="edea484f2dee3e4d7101b14f4a22d28be0291aa0"/>
+<project remote="agherzan" name="meta-raspberrypi" path="poky/meta-raspberrypi" revision="15206a15b42a1be8efd96aad3af420384b2ef536"/>
+<project remote="EmbeddedAndroid" name="meta-rtlwifi" path="poky/meta-rtlwifi" revision="9b8db95009cdf4481fe88b5e738d3bdf45ad333c"/>
+<project remote="meta-rust" name="meta-rust" path="poky/meta-rust" revision="816a860f2b7a40722a87aafc6b74e7a7bc4ad3eb"/>
+<project remote="ejaaskel" name="meta-audiostreamer" path="poky/meta-audiostreamer" revision="master"/>
+</manifest>
